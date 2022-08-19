@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos dferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 780px)" srcset="imagens/tela-p.png" type="image/png">
+        <source media="(max-width: 1080px)" srcset="imagens/tela-m.png" type="image/png">
+        <img src="imagens/tela-g.png" alt="Imagem flexível">
+    </picture>
+    
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em html5</p>
+   <audio src="media/lament of the ancians.mp3" controls></audio>
+</body>
+</html>
