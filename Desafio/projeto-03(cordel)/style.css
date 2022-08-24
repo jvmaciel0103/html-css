@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Kalam;
+    src: url(Fontes/Kalam/);
+}
+@font-face {
+    font-family: Yanone;
+    src: url(Fontes/Yanone_Kaffeesatz/);
+}
+
