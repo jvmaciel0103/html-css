@@ -57,20 +57,26 @@ section{
 }
 
 section.normal{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 
 section.imagem{
-    background-color: rgb(58, 57, 57);
-    color: white;
+    background-color: rgb( 55, 55, 55);
+    background-image: url(../Imagens/imagem-rosa.jpg);
+    background-size: cover;
+    background-position: 25%, 25%;
+    box-shadow: 6px 13px rgba(0, 0, 0, 0.808);
+    background-attachment: fixed;
 
 }
 
 section.imagem>p{
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.700);
+    color: white;
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer{
