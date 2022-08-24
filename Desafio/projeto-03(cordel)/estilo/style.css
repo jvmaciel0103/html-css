@@ -11,17 +11,18 @@
 
 *{
     margin: 0px;
-    padding: 0px;}
+    padding: 0px;
+}
 
 html, body{
-    min-width: 100vh;
+    min-width: 95vw;
     background-color: darkslategray;
 }
 
 header{
     background-color: black;
     color: white;
-    text-align: center;
+    text-align:center;
 
 }
 
@@ -29,12 +30,12 @@ header>h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte1);
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 header>p{
     padding-bottom: 50px;
-    font-size: medium;
+    font-size: 1em;
     font-family: var(--fonte3);
 }
 
@@ -52,8 +53,7 @@ section{
     padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
     font-family: var(--fonte2);
-    font-size: 2.5vw;
-
+    font-size: 3vw;
 }
 
 section.normal{
@@ -78,5 +78,10 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    box-sizing: 96vh;
-}
+    margin: auto;
+} 
+
+
+
+
+
