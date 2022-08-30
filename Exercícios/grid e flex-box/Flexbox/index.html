@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+    html, body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .container{
+        height: 100vh;
+
+        /* inidica que estamos utilizando o flex-box */
+        display: flex;
+
+        flex-direction: row;
+        /* determina a direção do flex */
+
+        flex-wrap: wrap;
+        /* quando uma linha atingir o máximo, para respeitar o tamanho, se quebra a linha */
+
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .child{
+        background-color: rgb(156, 79, 228);
+        width: 20%;
+        height: 200px;
+        border: 2px solid black;
+    }
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div style="order:3;" class="child"></div>
+        <div style="order:2;" class="child"></div>
+        <!-- order=determina a ordem em que o flex será aplicado   -->
+    </div>
+    
+</body>
+</html>
