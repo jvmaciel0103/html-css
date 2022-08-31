@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando links de iframe</title>
+
+    <style>
+        a{
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: gray;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            width: 80%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Acesse uma das nossas páginas</h1>
+
+    <ul>
+        <li><a href="../023/tabela-final.html" target="tela">Página 1</a></li>
+        <li><a href="pag002.html" target="tela">Página 2</a></li>
+        <li><a href="pag003.html" target="tela">Página 3</a></li>
+    </ul>
+
+    <iframe srcdoc="<h1>Titulo</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad modi consequuntur possimus doloribus voluptate praesentium officia id excepturi nesciunt veritatis, porro harum fugiat, doloremque provident ratione explicabo aperiam animi expedita?
+    Exercitationem repellat natus facere est reiciendis adipisci distinctio fugiat ipsa? Error sequi tempora esse non molestias commodi repellendus nesciunt asperiores velit. Delectus exercitationem assumenda molestiae, officia inventore eum itaque dolor.</p>" name="tela"></iframe>
+
+</body>
+</html>
