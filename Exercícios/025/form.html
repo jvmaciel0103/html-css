@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro formulário</title>
+</head>
+<body>
+    <!-- cadastro= linguagem do banco de dados (php, javascript, phyton...)-->
+
+    <!-- method= segurança de dados no cabeçalho (POST= não mostrar[senhas, emails, cartões, informações confidenciais...], GET= mostrar[peso, altura, informações irrelevantes])-->
+
+    <!-- autocomplete= preeenchimento automático de dados(on ou off)-->
+    <form action="cadastro.php" method="POST" autocomplete="off">
+        <h1>Meu primeiro formulário</h1>
+        <!-- label= indexa o texto ao input (for= para) -->
+    <p><label for="inome">Nome</label>
+        
+        <!--input= insere forms (data, texto, senha, hora, enviar[submit]...)-->
+         <input type="text" name="nome" id="inome"></p>
+    <p> <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha"></p>
+    <p>
+        <input type="submit" value="Enviar"></p>
+    </form>
+</body>
+
+</html>
