@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e radio</title>
+    
+    <style>
+        div{
+            display: block;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" methot="get">
+
+        <p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="sxmsc" checked> <label for="sxmsc">Masculino</label><br>
+                <input type="radio" name="sexo" id="sxfem"> <label for="sxfem">Feminino</label><br>
+            </fieldset>
+        </p>
+        <!-- Em rádio tem que ter o mesmo name e é indicado ter um check(opção já marcada) -->
+        
+        <p>
+            <fieldset>
+                <legend>Esportes favoritos</legend>
+
+                <input type="checkbox" name="espfut" id="iespfut"> <label for="iespfut">Futebol</label><br>
+
+                <input type="checkbox" name="espbasq" id="iespbasq"> <label for="iespbasq">Basquete</label><br>
+
+                <input type="checkbox" name="espvol" id="iespvol"> <label for="iespvol">Vôlei</label><br>
+
+                <input type="checkbox" name="esphan" id="iesphan"> <label for="iesphan"> Handbol</label><br>
+            </fieldset>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
