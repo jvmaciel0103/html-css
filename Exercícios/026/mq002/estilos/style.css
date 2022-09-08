@@ -20,7 +20,8 @@ html,body{
 }
 
 h1{
-    font-size: medium;
+    padding-top: 15px;
+    font-size: 170%;
     text-align: center;
     color: white;
 }
