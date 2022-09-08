@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* configurações gerais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    
+
+    background-color: #233EFF;
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: medium;
+    text-align: center;
+    color: white;
+}
