@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Todas as Media Queries */
+
+/* typical device breakpoint (pesquisar)
+    celular: max-width= 768px
+    tablet: min-width= 769px até max-width= 992px
+    desktop: min-width= 993px até max-width= 1200px
+    Grandes tela: min-width= > 1200px
+*/
+
+@media print {
+    
+}
+
+/* como o meu query já foi feito em first mobile, já foi projetado para celulares e pequenas telas, nesse caso, não é necessário adicionar media queries para os dois */
+
+@media screen and (min-width: 769px) and (max-width: 992px) /*TABLET*/{
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: block;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+    img#print{ display: none;}
+}
+
+@media screen and (min-width: 993px) and (max-width: 2000px) /*DESKTOP*/{
+    body{
+        background-image: url(../imagens/back-pc.jpg)
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#pc{ display: block;}
+    img#tv{ display: none;}
+    img#print{ display: none;}
+}
+
+@media screen and (min-width: 2000px) /*GRANDES TELAS*/{
+    body{
+        background-image: url(../imagens/back-tv.jpg)
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#pc{ display: none;}
+    img#tv{ display: block;}
+    img#print{ display: none;}
+}
