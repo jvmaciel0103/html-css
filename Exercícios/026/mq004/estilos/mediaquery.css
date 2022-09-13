@@ -10,7 +10,23 @@
 */
 
 @media print {
-    
+    main{
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    main h1{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: none;
+        text-shadow: none;
+    }
+
+    img#phone{ display: none;}
+    img#tablet{ display: none;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+    img#print{ display: block;}
 }
 
 /* como o meu query já foi feito em first mobile, já foi projetado para celulares e pequenas telas, nesse caso, não é necessário adicionar media queries para os dois */
