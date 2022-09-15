@@ -5,8 +5,8 @@
 /* typical device breakpoint (pesquisar)
     celular: max-width= 768px
     tablet: min-width= 769px até max-width= 992px
-    desktop: min-width= 993px até max-width= 1200px
-    Grandes tela: min-width= > 1200px
+    desktop: min-width= 993px até max-width= 1500px
+    Grandes tela: min-width= > 1500px
 */
 
 @media print {

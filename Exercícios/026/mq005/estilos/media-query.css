@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* typical device breakpoint (pesquisar)
+    celular: max-width= 768px
+    tablet: min-width= 769px até max-width= 992px
+    desktop: min-width= 993px até max-width= 1500px
+    Grandes tela: min-width= > 1500px
+*/
+@media screen and (min-width:768px) {
+    span#icone-menu {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+    
+    main{
+       max-width: 768px;
+    }
+}
